@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website</title>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/e674bba739.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body id="top" class="dark_theme">
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a
+            href=""
+            class="bir"
+            data-aos="fade-right"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+            >Kha111ov</a
+          >
+          <ul
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="300"
+            data-aos-duration="500"
+            style="position: fixed; top: 0px; width: 80%; margin-left: 50%">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+            <i class="fas fa-times"></i>
+          </ul>
+          <i class="fas fa-bars"></i>
+        </nav>
+        <div class="textar">
+          <div class="header-text" data-aos="fade-right"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="500">
+            <h1>Hi, I'm <span>Developer</span><br />Abbos from Jizzakh</h1>
+          </div>
+          <div class="box-top"  data-aos="zoom-in-down">
+            <img src="images/background.png" alt="" style="margin-top: 50px; border-radius: 100%;" width="400px" height="430px" z-index="10"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1" data-aos="fade-right">
+            <img src="images/user.png" />
+          </div>
+          <div class="about-col-2"  data-aos="zoom-out"><h1>About Me</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              expedita corporis culpa recusandae inventore cum quasi corrupti in
+              eligendi veniam iusto sint quas, sequi temporibus hic est nemo
+              veritatis eum beatae doloremque optio commodi iure ipsam.
+              Doloribus earum tenetur, tempore at minus est sequi delectus
+              accusamus facilis vel molestias laboriosam? Harum tempore, maiores
+              molestiae deleniti similique assumenda esse nisi! Atque enim omnis
+              quia dolorem adipisci? Harum id quas sequi qui itaque, debitis
+              molestiae officia eos sapiente quia non, dolores, maxime
+              consequatur placeat ipsa minima et. Placeat tenetur molestiae
+              distinctio ad itaque libero ipsam, explicabo perferendis quam
+              maxime possimus, facilis delectus.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li>
+                  <span>App Development</span><br />Building Android/iOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2022 - Current</span><br />UI/UX Design training at ET
+                  Institute
+                </li>
+                <li><span>2022-2023</span><br />Web app Development</li>
+                <li>
+                  <span>2021-2023</span><br />UI/UX Design Executive at Coin
+                  Digital Ltd.
+                </li>
+                <li>
+                  <span>2020-2020</span><br />Internship at eKart ecommerce.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2016</span><br />UI/UX Design training at ET Institute
+                </li>
+                <li>
+                  <span>2016 Development</span><br />MBA from MIT Bangalore
+                </li>
+                <li><span>2014</span><br />BBA from ISM Bangalore</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title" data-aos="zoom-out">My Services</h1>
+        <div class="services-list">
+          <ul class="accordion">
+            <li>
+              <input type="radio" name="accordion" id="first" checked>
+              <label for="first">Index</label>
+              <div class="content">
+                <img src="images/Screenshot (15).png" alt="png" width="600px">
+                <img src="images/Screenshot (18).png" alt="png" width="600px">
+              </div>
+            </li>
+            <li>
+              <input type="radio" name="accordion" id="second">
+              <label for="second">CSS</label>
+              <div class="content">
+                <img src="images/Screenshot (16).png" alt="png" width="600px">
+                <img src="images/Screenshot (20).png" alt="png" width="600px">
+              </div>
+            </li>
+            <li>
+              <input type="radio" name="accordion" id="third">
+              <label for="third">Javascript</label>
+              <div class="content">
+                <img src="images/Screenshot (17).png" alt="png" width="600px">
+                <img src="images/Screenshot (22).png" alt="png" width="600px">
+              </div>
+            </li>
+          </ul>
+      </div>
+      
+    </div>
+    <!-- <div class="container">
+      <div class="row">
+        <div class="about-col-1" data-aos="fade-right">
+          <img src="images/user.png" />
+        </div>
+        <div class="about-col-2"  data-aos="zoom-out"><h1>About Me</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+            expedita corporis culpa recusandae inventore cum quasi corrupti in
+            eligendi veniam iusto sint quas, sequi temporibus hic est nemo
+            veritatis eum beatae doloremque optio commodi iure ipsam.
+            Doloribus earum tenetur, tempore at minus est sequi delectus
+            accusamus facilis vel molestias laboriosam? Harum tempore, maiores
+            molestiae deleniti similique assumenda esse nisi! Atque enim omnis
+            quia dolorem adipisci? Harum id quas sequi qui itaque, debitis
+            molestiae officia eos sapiente quia non, dolores, maxime
+            consequatur placeat ipsa minima et. Placeat tenetur molestiae
+            distinctio ad itaque libero ipsam, explicabo perferendis quam
+            maxime possimus, facilis delectus.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="openTab('experience')">
+              Experience
+            </p>
+            <p class="tab-links" onclick="openTab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+              <li><span>Web Development</span><br />Web app Development</li>
+              <li>
+                <span>App Development</span><br />Building Android/iOS apps
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li>
+                <span>2022 - Current</span><br />UI/UX Design training at ET
+                Institute
+              </li>
+              <li><span>2022-2023</span><br />Web app Development</li>
+              <li>
+                <span>2021-2023</span><br />UI/UX Design Executive at Coin
+                Digital Ltd.
+              </li>
+              <li>
+                <span>2020-2020</span><br />Internship at eKart ecommerce.
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2016</span><br />UI/UX Design training at ET Institute
+              </li>
+              <li>
+                <span>2016 Development</span><br />MBA from MIT Bangalore
+              </li>
+              <li><span>2014</span><br />BBA from ISM Bangalore</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title" data-aos="zoom-out">My Works</h1>
+        <div class="work-list">
+          <div class="work"  data-aos="zoom-in-right">
+            <img src="images/work-1.png" alt="" />
+            <div class="layer" >
+              <h2>Social Media App</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat quam facere quibusdam deserunt dolore vero. Incidunt ea
+                nihil sint. Velit.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work"  data-aos="zoom-out-up">
+            <img src="images/work-2.png" alt="" />
+            
+            <div class="layer">
+              <h2>Music App</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat quam facere quibusdam deserunt dolore vero. Incidunt ea
+                nihil sint. Velit.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work" data-aos="zoom-in-left">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h2>Online Shopping App</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat quam facere quibusdam deserunt dolore vero. Incidunt ea
+                nihil sint. Velit.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="" class="btn" data-aos="zoom-in-up">See more</a>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left" data-aos="zoom-in-right">
+            <h1 class="sub-title">Contact Me</h1>
+
+            <p><i class="fas fa-paper-plane"></i> Abbosjon@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i> +998 (91) 029-09-29</p>
+            <div class="social-icons">
+              <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+              <a href="https://twitter.com/home"><i class="fab fa-twitter-square"></i></a>
+              <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              <a href="https://t.me/PROSTA_salom"><i class="fab fa-telegram"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2" data-aos="zoom-in-up">Download CV</a>
+          </div>
+          <div class="contact-right" data-aos="zoom-in-left">
+            <form onsubmit="sendEmail(); reset(); return false">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn3" data-aos="zoom-in-up">submit</button>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          copyright @ Abbosjon Kha111ov. Made with
+          <i class="fas fa-heart"></i> by Abbosjon Kha111ov
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tabLinks = document.getElementsByClassName("tab-links");
+      var tabContents = document.getElementsByClassName("tab-contents");
+      
+      function openTab(tabName) {
+        for (tabLink of tabLinks) {
+          tabLink.classList.remove("active-link");
+        }
+        for (tabContent of tabContents) {
+          tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+      }
+
+
+      document
+        .querySelector(".fas.fa-bars")
+        .addEventListener("click", function () {
+          document.querySelector("nav ul").classList.toggle("show");
+        });
+
+      document
+        .querySelector(".fas.fa-times")
+        .addEventListener("click", function () {
+          document.querySelector("nav ul").classList.remove("show");
+        });
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+          <script>
+            function sendEmail(){
+              Email.send({
+                Host : "smtp.gmail.com",
+                Username : "zilolayuldasheva009@gmail.com",
+                Password : "olma7777",
+                To : 'abbosjonxalilov0@gmail.com',
+                From : document.getElementById("email").value,
+                Subject : "New Contact Form Enquiry",
+                Body : "And this is the body"
+            }).then(
+              message => alert(message)
+            );
+            }
+          </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
